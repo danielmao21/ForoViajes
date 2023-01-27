@@ -1,0 +1,97 @@
+h1
+{
+    color: rgb(3, 216, 3);
+    text-align: center;
+}
+table
+{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+th, td
+{
+   border: 2px solid black;
+   padding-left: 20px;
+   padding-top: 20px;
+   padding-right: 20px;
+   color: rgb(0, 0, 0);
+}
+
+th
+{
+    background-color: rgb(18, 230, 60);
+    color: rgb(24, 23, 23);
+    
+}
+/* tabla empezar tema-----------*/
+
+p{
+    color: black;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.logo {
+    text-align: center;
+    font-size: 3em;
+    width: 10%;
+}
+
+
+.entrada-form {
+    background: #bcc0bb;
+    width: 600px;
+    margin: auto;
+}
+
+.entrada-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.entrada-form form label {
+    display: block;
+}
+
+.entrada-form form p {
+    margin: 0;
+    padding: 1em;
+    
+}
+
+.entrada-form form .block {
+    grid-column: 1 / 3;
+}
+
+.entrada-form form button,
+.entrada-form form input,
+.entrada-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: rgb(24, 23, 23);
+    border-bottom: 1px solid #161515;
+}
+
+
+.entrada-form form button {
+    background: #1cb70e;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.entrada-form form button:hover,
+.entrada-form form button:focus {
+    background: #dddad8;
+    color: rgb(12, 12, 12);
+    transition: background-color 1s ease-out;
+    outline: 0;
+}

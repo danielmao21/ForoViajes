@@ -1,0 +1,18 @@
+#pies
+{
+    margin: auto;
+    width: auto;
+    height: auto;
+    background-color: rgba(194, 199, 196, 0.986);
+}
+
+#pies h5
+{
+ text-align: center;
+    color:black;
+}
+#pies p
+{
+    text-align: center;
+    color:black;
+}
